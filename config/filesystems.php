@@ -82,4 +82,18 @@ return [
         public_path('storage') => storage_path('app/public'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Image Uploads
+    |--------------------------------------------------------------------------
+    |
+    | Here you may configure the post images that are uploaded by the user.
+    |
+    */
+    'uploads' => [
+        'driver' => 'local',
+        'root' => 'uploads',
+        'url' => 'uploads',
+      ],
+
 ];
